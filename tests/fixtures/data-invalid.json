@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-05T06:00:00+09:00",
+  "period": {
+    "kind": "month",
+    "label": "2026年11月",
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "timezone": "Asia/Tokyo"
+  },
+  "region": "JP",
+  "sources": [
+    {
+      "name": "テスト用公式情報",
+      "url": "https://about.netflix.com/ja/new-to-watch",
+      "fetchedAt": "2026-11-05T06:00:00+09:00"
+    }
+  ],
+  "status": "ok",
+  "note": null,
+  "items": [
+    {
+      "titleId": "81000000",
+      "title": "青い旅",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-02",
+      "genres": ["ドラマ", "アドベンチャー"],
+      "netflixUrl": "https://example.com/",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000001",
+      "title": "赤い本",
+      "subtitle": null,
+      "synopsis": null,
+      "synopsisLang": null,
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-03",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000001",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000002",
+      "title": "星の庭",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": null,
+      "releaseDate": "2026-11-04",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000002",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    }
+  ]
+}
