@@ -1,0 +1,27 @@
+{
+  "name": "netflix-shinsaku-book",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "check:pii": "node scripts/check-pii.mjs",
+    "build:data": "node scripts/build-data.mjs --prev .cache/previous-data.json --out public/data.json"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@playwright/test": "^1.56.1",
+    "eslint": "^9.39.0",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "vite": "^6.4.1",
+    "vitest": "^3.2.4",
+    "yaml": "^2.8.1"
+  }
+}

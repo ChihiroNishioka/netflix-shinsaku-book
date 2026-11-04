@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-05T06:00:00+09:00",
+  "period": {
+    "kind": "month",
+    "label": "2026年11月",
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "timezone": "Asia/Tokyo"
+  },
+  "region": "JP",
+  "sources": [
+    {
+      "name": "テスト用公式情報",
+      "url": "https://about.netflix.com/ja/new-to-watch",
+      "fetchedAt": "2026-11-05T06:00:00+09:00"
+    }
+  ],
+  "status": "ok",
+  "note": null,
+  "items": [
+    {
+      "titleId": "81000100",
+      "title": "テスト作品 1",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-02",
+      "genres": ["ドラマ", "アドベンチャー"],
+      "netflixUrl": "https://www.netflix.com/title/81000100",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000101",
+      "title": "テスト作品 2",
+      "subtitle": null,
+      "synopsis": null,
+      "synopsisLang": null,
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-03",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000101",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000102",
+      "title": "テスト作品 3",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": null,
+      "releaseDate": "2026-11-04",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000102",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000103",
+      "title": "テスト作品 4",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-02",
+      "genres": ["ドラマ", "アドベンチャー"],
+      "netflixUrl": "https://www.netflix.com/title/81000103",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000104",
+      "title": "テスト作品 5",
+      "subtitle": null,
+      "synopsis": null,
+      "synopsisLang": null,
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-03",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000104",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000105",
+      "title": "テスト作品 6",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": null,
+      "releaseDate": "2026-11-04",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000105",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000106",
+      "title": "テスト作品 7",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-02",
+      "genres": ["ドラマ", "アドベンチャー"],
+      "netflixUrl": "https://www.netflix.com/title/81000106",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000107",
+      "title": "テスト作品 8",
+      "subtitle": null,
+      "synopsis": null,
+      "synopsisLang": null,
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-03",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000107",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000108",
+      "title": "テスト作品 9",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": null,
+      "releaseDate": "2026-11-04",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000108",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000109",
+      "title": "テスト作品 10",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-02",
+      "genres": ["ドラマ", "アドベンチャー"],
+      "netflixUrl": "https://www.netflix.com/title/81000109",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000110",
+      "title": "テスト作品 11",
+      "subtitle": null,
+      "synopsis": null,
+      "synopsisLang": null,
+      "imageUrl": "https://images.example.com/cover.svg",
+      "releaseDate": "2026-11-03",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000110",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    },
+    {
+      "titleId": "81000111",
+      "title": "テスト作品 12",
+      "subtitle": null,
+      "synopsis": "これはテスト用のあらすじです。",
+      "synopsisLang": "ja",
+      "imageUrl": null,
+      "releaseDate": "2026-11-04",
+      "genres": ["ドラマ"],
+      "netflixUrl": "https://www.netflix.com/title/81000111",
+      "sourceUrls": ["https://about.netflix.com/ja/new-to-watch"]
+    }
+  ]
+}
