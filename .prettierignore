@@ -1,0 +1,7 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.cache/
+package-lock.json
+tests/fixtures/sources/

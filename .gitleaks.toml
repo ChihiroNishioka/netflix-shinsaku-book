@@ -1,0 +1,26 @@
+title = "秘密と個人情報の検査"
+[extend]
+useDefault = true
+
+[[rules]]
+id = "personal-email"
+description = "個人メール"
+regex = '''[A-Za-z0-9._%+\-\[\]]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}'''
+[[rules.allowlists]]
+regexTarget = "match"
+regexes = ['''(?i)@(?:users\.noreply\.github\.com|example\.com)$''', '''(?i)^noreply@anthropic\.com$''']
+
+[[rules]]
+id = "japanese-phone"
+description = "電話番号"
+regex = '''(?:0\d{1,4}-\d{1,4}-\d{3,4}|0[789]0\d{8}|\+81[-\s]?\d{1,4}[-\s]?\d{1,4}[-\s]?\d{3,4})'''
+
+[[rules]]
+id = "japanese-address"
+description = "郵便番号と住所"
+regex = '''〒\s?\d{3}-\d{4}|\d{3}-\d{4}\s*(?:東京都|北海道|大阪府|京都府|[^\s\d]{2,3}県)|(?:東京都|北海道|大阪府|京都府|[^\s\d]{2,3}県)[^\n]{0,40}[市区町村][^\n]{0,30}\d+-\d+(?:-\d+)?'''
+
+[[rules]]
+id = "explicit-secret"
+description = "秘密の値"
+regex = '''gh[pousr]_[A-Za-z0-9]{36,}|github_pat_[A-Za-z0-9_]{50,}|sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|-----BEGIN [A-Z ]*PRIVATE KEY-----'''
